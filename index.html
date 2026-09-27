@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment #2 - Advanced CSS Layouts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <header class="navbar">
+        <div class="logo">AmirkhanAbai</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#flexbox">Flexbox</a></li>
+                <li><a href="#grid">Grid Layout</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        
+        <section id="flexbox" class="section">
+            <h2>Part 1: Task 1 - Card Row (Flexbox)</h2>
+            <div class="card-row">
+                <div class="card">
+                    <img src="C:\Users\Acer\Downloads\962081539166884193.jpeg" alt="Card 1">
+                    <div class="card-content">
+                        <h3>Flexbox Alignment</h3>
+                        <p>The box alignment module details how alignment works in various layout methods.</p>
+                        <button class="btn">Learn More</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="C:\Users\Acer\Downloads\667306869795151833.jpeg" alt="Card 2">
+                    <div class="card-content">
+                        <h3>Equal Heights</h3>
+                        <p>Grid Layout provides a unit for establishing flexible lengths in a grid container.</p>
+                        <button class="btn">Learn More</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="C:\Users\Acer\Downloads\289497082321648259.jpeg" alt="Card 3">
+                    <div class="card-content">
+                        <h3>Interactive Hover</h3>
+                        <p>Hovering over cards produces a subtle vertical translation and box-shadow elevation effect.</p>
+                        <button class="btn">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section id="grid" class="section">
+            <h2>Part 2: Task 2 - Page Layout with Grid Areas</h2>
+            <div class="grid-layout-container">
+                <header class="grid-header">Header (Spans Top)</header>
+                <aside class="grid-sidebar">Sidebar (Left)</aside>
+                <main class="grid-main">Main Content Area (Right)</main>
+                <footer class="grid-footer">Footer (Spans Bottom)</footer>
+            </div>
+        </section>
+
+        <section id="gallery" class="section">
+            <h2>Part 2: Task 3 - Image Gallery (CSS Grid)</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="C:\Users\Acer\Downloads\351912460468578.jpeg" alt="Gallery 1">
+                    <div class="overlay">Caption Image 1</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="C:\Users\Acer\Downloads\Hokusai_ the influential work of Japanese artist famous for 'the great wave' – in pictures.jpeg"alt="Gallery 2">
+                    <div class="overlay">Caption Image 2</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="C:\Users\Acer\Downloads\24558760465403986.jpeg" alt="Gallery 3">
+                    <div class="overlay">Caption Image 3</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="C:\Users\Acer\Downloads\“The Kiss” (1908).jpeg" alt="Gallery 4">
+                    <div class="overlay">Caption Image 4</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="C:\Users\Acer\Downloads\Amazon_com_ Cherry Blossoms, Giclee Print of….jpeg"alt="Gallery 5">
+                    <div class="overlay">Caption Image 5</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="C:\Users\Acer\Downloads\Sakura.jpeg" alt="Gallery 6">
+                    <div class="overlay">Caption Image 6</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="C:\Users\Acer\Downloads\Flower Paintings by First Grade_ Learn about Van….jpeg" alt="Gallery 7">
+                    <div class="overlay">Caption Image 7</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="C:\Users\Acer\Downloads\Louis Wain_ The artist who changed how we think about cats.jpeg" alt="Gallery 8">
+                    <div class="overlay">Caption Image 8</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="C:\Users\Acer\Downloads\99853316730033574.jpeg" alt="Gallery 9">
+                    <div class="overlay">Caption Image 9</div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section id="portfolio" class="section">
+            <h2>Part 3: Task 4 - Integrated Portfolio Layout</h2>
+            
+            <div class="portfolio-wrapper">
+                <header class="portfolio-header navbar">
+                    <div class="logo">DevPortfolio</div>
+                    <ul class="nav-links">
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </header>
+
+                <div class="portfolio-grid-main">
+                    <section class="projects-area">
+                        <h3>Featured Projects</h3>
+                        <div class="projects-flex-container">
+                            
+                            <article class="portfolio-card">
+                                <div class="p-card-body">
+                                    <h4>Project Alpha</h4>
+                                    <p>A full-stack modern web dashboard built with HTML5, CSS Grid, and responsive principles.</p>
+                                </div>
+                                <button class="btn">View Project</button>
+                            </article>
+
+                            <article class="portfolio-card">
+                                <div class="p-card-body">
+                                    <h4>Project Beta</h4>
+                                    <p>E-commerce user interface with scalable flexbox item distribution and smooth transitions.</p>
+                                </div>
+                                <button class="btn">View Project</button>
+                            </article>
+
+                        </div>
+                    </section>
+
+                    <aside class="portfolio-sidebar">
+                        <h3>About Me</h3>
+                        <p>A student learning about frontend.</p>
+                        <h4>Skills</h4>
+                        
+                    </aside>
+                </div>
+
+                <footer class="portfolio-footer">
+                    <p>&copy; 2026 Student Portfolio. All rights reserved.</p>
+                </footer>
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>
